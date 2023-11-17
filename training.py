@@ -10,7 +10,7 @@ from elbo_functions import deviance_upper_bound, elbo, KL_closed, minibatch_KLD_
     minibatch_KLD_upper_bound_iter, minibatch_sgd
 from model_test import MSE_test_simple_batch
 from utils import SubjectSampler, VaryingLengthSubjectSampler, VaryingLengthBatchSampler, HensmanDataLoader
-from predict_HealthMNIST import recon_complete_gen, gen_rotated_mnist_plot, variational_complete_gen
+from generate_images import recon_complete_gen, gen_rotated_mnist_plot, variational_complete_gen
 from validation import validate, validate_simple_batch
 
 
